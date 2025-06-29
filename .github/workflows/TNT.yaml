@@ -105,7 +105,7 @@ jobs:
       - name: Commit results to Github
         continue-on-error: true
         run: |
-          git config --local user.email "admin@inbug.org"
+          git config --local user.email "zjt@inbug.org"
           git config --global user.name "fuck-team"
           git commit -m "Fuck Report" -a --allow-empty
       - name: Push changes
